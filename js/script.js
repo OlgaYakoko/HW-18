@@ -9,7 +9,7 @@ let resultWithSymbol = null;
 const padString = function (argString, argNumber, argSymbol, argBoolean) {
 
     if(argString === null || argString === "" ){return console.log(`err, enter the string!`)};
-    if(!isNaN (argString)) {return console.log(`err, enter the number!`)};
+    if(!isNaN (argNumber)) {return console.log(`err, enter the number!`)};
     if(argSymbol.length > 1) {return console.log(`err, enter only one symbol`)};
 
     
